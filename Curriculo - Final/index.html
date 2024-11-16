@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="profile-pic">
+          <img src="images/ric.jpg" alt="Foto de Perfil" />
+        </div>
+        <div class="profile-info">
+          <h1>Ricardo Lacerda Pereira</h1>
+          <p>
+            TI Developer | Recife, Pernambuco |
+            <a href="https://wa.me/5581982039729" target="_blank"
+              >(81) 98203-9729</a
+            >
+            |
+            <a href="mailto:ricardolacper@gmail.com">ricardolacper@gmail.com</a>
+          </p>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>Objetivo</h2>
+        <p>
+          Especializado em diversas vertentes da área de TI, incluindo reparos
+          em equipamentos informáticos (hardware e software), desenvolvimento
+          web, mobile, e backend, além de conhecimento em redes de computadores.
+          Hábil em trabalhar com equipes multidisciplinares para entregar
+          soluções tecnológicas inovadoras e eficientes..
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Experiência Profissional</h2>
+        <div class="job">
+          <h3>iCanada Reparos</h3>
+          <p><strong>Cargo:</strong> IT Administrator</p>
+          <p><strong>Período:</strong> 01/2019 - Atual</p>
+          <p><strong>Principais atividades:</strong></p>
+
+          <!-- Menu de Atividades -->
+          <div class="activity-nav">
+            <button class="activity-btn" data-activity="1">Suporte</button>
+            <button class="activity-btn" data-activity="2">Consultoria</button>
+            <button class="activity-btn" data-activity="3">Qualidade</button>
+          </div>
+
+          <!-- Conteúdo das Atividades -->
+          <div class="activity-content" id="activity-1">
+            <p>
+              Nesta atividade, ofereço suporte técnico especializado para
+              dispositivos da linha Apple, como iPhones, iPads, Macs, e
+              acessórios. As minhas funções incluem diagnóstico preciso de
+              problemas de hardware e software, reparos, atualizações de sistema
+              e substituição de peças.
+            </p>
+          </div>
+          <div class="activity-content" id="activity-2">
+            <p>
+              Estou apto a oferecer consultoria personalizada sobre o uso
+              adequado dos dispositivos, garantindo o melhor desempenho
+              possível.
+            </p>
+          </div>
+          <div class="activity-content" id="activity-3">
+            <p>
+              Este serviço funda-se nos rigorosos padrões de qualidade e
+              assegura que seu dispositivo será restaurado à sua condição
+              original ou superior.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Educação</h2>
+        <div class="education">
+          <h3>Faculdade Senac</h3>
+          <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+          <p><strong>Período:</strong> 02/2024 - 06/2026</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Habilidades</h2>
+        <ul class="skills">
+          <li>
+            <button class="skill-btn" data-skill="1">
+              Desenvolvimento de Software:
+            </button>
+            <div class="skill-info" id="skill-1">
+              <p>
+                Proficiência em linguagens como JavaScript, HTML, Python e CSS.
+                frameworks e bibliotecas como React e Angular.
+              </p>
+            </div>
+          </li>
+          <li>
+            <button class="skill-btn" data-skill="2">Banco de Dados:</button>
+            <div class="skill-info" id="skill-2">
+              <p>
+                Conhecimento em design e gerenciamento de bancos de dados
+                relacionais (SQL) e não relacionais (NoSQL). Habilidade em
+                utilizar ferramenta como MySQL.
+              </p>
+            </div>
+          </li>
+          <li>
+            <button class="skill-btn" data-skill="3">
+              Análise de Sistemas:
+            </button>
+            <div class="skill-info" id="skill-3">
+              <p>
+                Capacidade de realizar levantamento de requisitos, modelagem de
+                sistemas e documentação técnica. Experiência com metodologias
+                ágeis (Scrum, Kanban) e ferramentas de gestão de projetos como
+                Jira ou Trello.
+              </p>
+            </div>
+          </li>
+          <li>
+            <button class="skill-btn" data-skill="4">Idiomas:</button>
+            <div class="skill-info" id="skill-4">
+              <p>Português (Nativo), Inglês (Básico) e Espanhol (Básico).</p>
+            </div>
+          </li>
+        </ul>
+        <div class="buttons">
+          <a href="http://127.0.0.1:5500/formulario/index.html" class="btn"
+            >Freelancer</a
+          >
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <p>© 2025 RLP Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

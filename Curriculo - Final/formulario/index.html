@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <!-- Seções anteriores do currículo aqui -->
+
+        <section class="section">
+            <h2>Formulário de Freelancer</h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Formulário de Freelancer</legend>
+
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+
+                    <label for="sobrenome">Sobrenome *</label>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Insira seu sobrenome" required>
+
+                    <label for="telefone">Telefone *</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" placeholder="Insira seu e-mail" required>
+
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Informe o que deseja." required></textarea>
+
+                    <label for="lingua">Língua</label>
+                    <select id="lingua" name="lingua">
+                        <option value="pt-br">Português (pt-br)</option>
+                        <option value="en">Inglês (en)</option>
+                        <option value="es">Espanhol (es)</option>
+                        <option value="fr">Francês (fr)</option>
+                    </select>
+
+                    <label for="prototipo">Protótipo (Requisitos)</label>
+                    <input type="file" id="prototipo" name="prototipo">
+
+                    <label>As linguagens que você prefere?</label>
+                    <div class="checkbox-group">
+                        <label for="java">
+                            <input type="checkbox" id="java" name="linguagens[]" value="java"> Java
+                        </label>
+                        <label for="c">
+                            <input type="checkbox" id="c" name="linguagens[]" value="c"> C
+                        </label>
+                        <label for="cpp">
+                            <input type="checkbox" id="cpp" name="linguagens[]" value="cpp"> C++
+                        </label>
+                        <label for="php">
+                            <input type="checkbox" id="php" name="linguagens[]" value="php"> PHP
+                        </label>
+                    </div>
+
+                    <label>Banco de Dados</label>
+                    <input type="radio" id="mysql" name="banco" value="mysql" checked> MySQL
+                    <input type="radio" id="postgresql" name="banco" value="postgresql"> PostgreSQL
+                    <input type="radio" id="mongodb" name="banco" value="mongodb"> MongoDB
+                    <input type="radio" id="na" name="banco" value="na"> N/A
+                    <input type="radio" id="outro" name="banco" value="outro"> Outra
+
+                    <label>Turno para Reuniões *</label>
+                    <input type="checkbox" id="manha" name="turno[]" value="manha"> Manhã
+                    <input type="checkbox" id="tarde" name="turno[]" value="tarde"> Tarde
+                    <input type="checkbox" id="noite" name="turno[]" value="noite"> Noite
+
+                    <label for="horario">Horário Sugerido</label>
+                    <input type="time" id="horario" name="horario">
+
+                    <label for="data">Data Prevista Entrega *</label>
+                    <input type="date" id="data" name="data" required>
+
+                    <div class="buttons">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                        <a href="http://127.0.0.1:5500/index.html" class="btn">Voltar</a>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Outras seções do currículo -->
+    </div>
+    
+    <footer class="footer">
+        <p>© 2025 RLP Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
